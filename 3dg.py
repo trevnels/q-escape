@@ -1,11 +1,6 @@
-import math
-import ratcave as rc
-from geometry import *
-from engine import *
-from operator import itemgetter
-
-import pyglet
 from pyglet.window import key
+
+from engine import *
 
 window = pyglet.window.Window(width=640, height=360)
 keys = key.KeyStateHandler()
